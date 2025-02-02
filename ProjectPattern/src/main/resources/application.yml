@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring project
+  profiles:
+    include:
+      - db
+      - common
+      - email

@@ -1,0 +1,20 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: i.s.m3132005.az@gmail.com
+    password: frbv yanl tqxy hbgi
+    default-encoding: UTF-8
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+application:
+  mail:
+    host: localhost
+    http: http://
+    confirmation: /user/confirmation?token=
